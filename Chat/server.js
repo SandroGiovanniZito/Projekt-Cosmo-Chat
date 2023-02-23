@@ -23,7 +23,7 @@ app.get("/", (req, res, next) => {
     res.json("Server is running on port 8000")
 });
 
-// API endpoints methods
+// Default response
 app.use(function(req, res){
     res.status(404);
 });
