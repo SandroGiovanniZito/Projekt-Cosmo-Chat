@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    height: 500px; /* Gesamthöhe des Chatbereichs */
+  }
+  
+  .private-chat {
+    width: 25%; /* Breite der linken Spalte */
+    background-color: #f2f2f2; /* Hintergrundfarbe der linken Spalte */
+    padding: 10px; /* Innenabstand der linken Spalte */
+    box-sizing: border-box; /* Box-Modell definieren */
+  }
+  
+  .main-chat {
+    width: 75%; /* Breite der rechten Spalte */
+    background-color: #e6e6e6; /* Hintergrundfarbe der rechten Spalte */
+    padding: 10px; /* Innenabstand der rechten Spalte */
+    box-sizing: border-box; /* Box-Modell definieren */
+  }
